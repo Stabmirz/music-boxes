@@ -1,0 +1,30 @@
+body{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: darkgrey; /* Change No 1*/
+}
+
+.piano{
+  border: 0px;
+  display: flex;
+  min-width: 35vw;
+  max-width: 35vw;
+  height: auto;
+  margin-top: 15%; /* Change No 2*/
+  box-shadow: 10px 8px darkgreen; /* Change No 3*/
+}
+
+.key{
+  flex: 1;
+  min-height: 40vh;
+  border: 4px solid whitesmoke; /* Change No 4*/
+  color: red; /* Change No 5*/
+  font-style: italic; /* Change No 6*/
+  font-weight: 1000;  /* Change No 7*/
+  background-color: rgb(8, 30, 100); /* Change No 8*/
+  text-align: center; /* Change No 9*/
+  font-size: 25px; /* Change No 10*/
+
+}
